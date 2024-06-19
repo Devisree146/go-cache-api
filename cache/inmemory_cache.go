@@ -124,7 +124,6 @@ func main() {
 
 	// Set key4, which should trigger eviction of the least recently used key (key2)
 	cache.Set("key4", 40, 5*time.Minute)
-
 	// Attempt to get key2, which should have been evicted
 	value, err = cache.Get("key2")
 	if err != nil {
