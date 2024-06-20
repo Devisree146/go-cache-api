@@ -1,4 +1,4 @@
-module github.com/Devisree146/Multi-Backend-Caching
+module github.com/Devisree146/go-cache-api
 
 go 1.22.3
 
